@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.header > img {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 41px;
+}
+
+.header > span {
+    font-size: 42px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 25px 10px 25px 10px;
+    margin-bottom: 15px;
+    border: solid;
+    border-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    background-color: #1da1f2;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #1da1f2;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
